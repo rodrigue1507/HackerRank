@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+	<PackageReference Update="FluentAssertions" Version="5.10.3"/>
+    <PackageReference Update="Microsoft.NET.Test.Sdk" Version="16.9.1" />
+    <PackageReference Update="NUnit" Version="3.13.0" />
+    <PackageReference Update="NUnit3TestAdapter" Version="3.17.0" />
+	<PackageReference Update="NSubstitute" Version="4.2.2" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Sdk Name="Microsoft.Build.CentralPackageVersions" Version="2.0.79" />
+  
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" />
+    <PackageReference Include="NUnit"/>
+    <PackageReference Include="NSubstitute" />
+    <PackageReference Include="NUnit3TestAdapter" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk"  />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\HackerRankChallenge\HackerRankChallenge.csproj" />
+  </ItemGroup>
+  
+</Project>
