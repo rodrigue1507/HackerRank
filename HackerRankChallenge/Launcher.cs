@@ -19,7 +19,7 @@ namespace HackerRankChallenge
             int[] tab = Array.ConvertAll(Console.ReadLine().Split(' '), arTemp => Convert.ToInt32(arTemp));
             try
             {
-                int result = SalesByMatch.SockMerchant(tabSize, tab);
+                int result = salesByMatch.SockMerchant(tabSize, tab);
                 Console.WriteLine($" le nombre de pair est : {result}");
             }
             catch (Exception e)
