@@ -8,7 +8,7 @@ namespace HackerRankChallenge
 {
     public class SalesByMatch
     {
-        public int SockMerchant(int n, int[] ar)
+        public static int SockMerchant(int n, int[] ar)
         {
             var checkOneTime = new HashSet<int>();
             if ((n >= 1 || n <= 100) && (n == ar.Length))
