@@ -6,7 +6,7 @@ namespace HackerRankChallenge
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Launcher.SalesByMatchLanch();
         }
     }
 }

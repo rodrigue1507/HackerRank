@@ -8,7 +8,7 @@ namespace HackerRankChallenge
 {
     public class SalesByMatch
     {
-        public int SockMerchant(int n, int[] ar)
+        public  int SockMerchant(int n, int[] ar)
         {
             var checkOneTime = new HashSet<int>();
             if ((n >= 1 || n <= 100) && (n == ar.Length))
@@ -31,7 +31,7 @@ namespace HackerRankChallenge
             else throw new Exception("la longeur du tableau spécifié n'est pas compris entre  1 et 100 ou est différente de la longeur du tableau");
         }
 
-        private static int SockPair(int TabElm, int[] ar)
+        private  int SockPair(int TabElm, int[] ar)
         {
             int result = 0;
             int elmFrequency = 0;
